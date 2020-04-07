@@ -10,5 +10,7 @@ class BankAccount
   def deposit(ammount)
     @balance += ammount
   end
+  
+  def display
 
 end
