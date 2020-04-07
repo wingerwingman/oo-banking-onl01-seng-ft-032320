@@ -25,9 +25,9 @@ class BankAccount
   end
   
   def close_account
-    self.name.delete 
-    self.balance.delete 
-    self.status.delete
+    @name.delete 
+    @balance.delete 
+    @status.delete
   end 
 
 end
