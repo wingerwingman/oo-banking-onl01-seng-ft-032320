@@ -1,7 +1,11 @@
 class Transfer
-  attr_reader :sender, :reciever 
+  attr_accessor :sender, :reciever, :amount, :status, :count
   
-  def initialize(balance, name, ammount)
-    BankAccount.name.balance - ammount
+  def initialize(sender, receiver, amount)
+    @sender = sender 
+    @receiver = reciever
+    @amount = amount
+    @status = "pending"
+    
   end
 end
