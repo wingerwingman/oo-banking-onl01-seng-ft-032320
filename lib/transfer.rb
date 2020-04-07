@@ -1,5 +1,5 @@
 class Transfer
-  attr_reader :balance, :name 
+  attr_reader :sender, :reciever 
   
   def initialize(balance, name, ammount)
     BankAccount.name.balance - ammount
