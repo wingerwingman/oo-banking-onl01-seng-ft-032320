@@ -23,5 +23,11 @@ class BankAccount
       false
     end
   end
+  
+  def close_account
+    self.name.delete 
+    self.balance.delete 
+    self.status.delete
+  end 
 
 end
